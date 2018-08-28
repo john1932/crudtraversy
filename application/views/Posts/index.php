@@ -8,4 +8,6 @@
         <?php echo $post['created_at'] ?></span></small> <br>
 <?php echo $post['body']; ?>
 
+<p><a href="<?php echo base_url('posts/'.$post['slug']); ?>">read more</a></p>
+
 <?php endforeach; ?>
